@@ -12,9 +12,6 @@ include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 440
 
-# Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/apollo.config
-
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := apollon,apollo,apollopro
 
